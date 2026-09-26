@@ -1,0 +1,25 @@
+{
+  "name": "crude-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple CRUD backend server built with Express, TypeScript, and PostgreSQL.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.2"
+  }
+}
